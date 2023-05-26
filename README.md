@@ -1,3 +1,3 @@
 # CSS_8-dars
 
-Bu repostoryda CSS 7-dars kodlari bor
+Bu repostoryda CSS 8-dars kodlari bor

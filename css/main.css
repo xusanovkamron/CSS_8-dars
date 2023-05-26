@@ -1,0 +1,69 @@
+:root {
+    --matnRangi: #303030;
+    --matnOlchami: 16px;
+    --eni: 100%;
+}
+body{
+    background-color: var(--matnRangi);
+    font-size: var(--matnOlchami);
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+}
+.col{
+    width: 30%;
+    float: left;
+    background-color: white;
+    display: block;
+    margin: 20px 15px;
+}
+.img-box{
+    width: 100%;
+    height: 250px;
+    display: block;
+    border: 1px solid red;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.text{
+    /*column-count: 3;*/
+    column-gap: 35px;
+    column-rule: 1px solid red;
+    column-width: 400px;
+}
+.clear{
+    clear: both;
+}
+
+@media (min-width: 240px) and (max-width: 570px) {
+    .wrap {
+        width: 100%;
+        background-color: dodgerblue;
+    }
+}
+@media (min-width: 570px) and (max-width: 780px) {
+    .wrap {
+        width: 100%;
+        background-color: blue
+    }
+}
+@media (min-width: 780px) and (max-width: 1200px){
+    .wrap{
+        width: 100%;
+        background-color: green;
+    }
+}
+@media (min-width: 1200px){
+    .wrap{
+        width: 100%;
+        background-color: brown;
+    }
+}
